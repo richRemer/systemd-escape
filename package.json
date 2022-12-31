@@ -1,0 +1,14 @@
+{
+  "name": "systemd-escape",
+  "version": "1.0.0-beta1",
+  "description": "escape values for use in systemd calls",
+  "type": "module",
+  "exports": "./escape.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^10.2.0"
+  }
+}
